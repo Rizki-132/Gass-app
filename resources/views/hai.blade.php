@@ -7,6 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <p><a href="Home"></a></p>
+    <p>Hello semua nya</p>
 </body>
 </html>

@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\HaiController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +21,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/hai', [HaiController::class, 'index']);
