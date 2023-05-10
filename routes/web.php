@@ -18,8 +18,12 @@ use App\Http\Controllers\HaiController;
 //     return view('welcome');
 // });
 
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
 
-Route::get('/hai', [HaiController::class, 'index']);
+// Route::get('/hai', [HaiController::class, 'index']);
